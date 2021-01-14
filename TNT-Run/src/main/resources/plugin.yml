@@ -1,0 +1,11 @@
+name: TNTRun
+author: PolloGamer
+main: com.pollogamer.tntrun.Principal
+version: 1.0
+depend: [ SirCrakedServer ]
+commands:
+  tntrun:
+    aliases: [ tntrun, tr ]
+    description: Comando para configurar el juego
+  game:
+    description: Comando para empezar el juego

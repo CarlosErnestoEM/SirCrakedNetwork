@@ -1,0 +1,7 @@
+name: SirCrakedSB
+author: PolloGamer
+version: 1.0
+main: com.pollogamer.sircrakedsb.Principal
+description: Complemento para SkyBlock
+depend: [ SirCrakedServer ]
+softdepend: [ Multiverse-Core ]

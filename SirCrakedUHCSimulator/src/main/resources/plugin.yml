@@ -1,0 +1,22 @@
+name: SirCrakedSimulator
+author: PolloGamer
+version: 1.0
+main: com.pollogamer.uhcsimulator.Principal
+commands:
+  uhcsimulator:
+    description: Comando para la realizacion de toda la configuracion
+    aliases: [ uhcsimulator, uhcs, uhc ]
+  game:
+    description: Comando para todo lo relacionado a la arena
+  leave:
+    description: Comando para salir del juego
+    aliases: [ leave, salir, quit, abandonar ]
+  drops:
+    description: Maneja todo sobre los scenarios drops
+  reroll:
+    description: Cambia tu kit xd
+  stats:
+    description: Checa tus estadisticas
+    aliases: [ stats, elo, estadisticas ]
+  revive:
+    description: Revive a 1 usuario xd

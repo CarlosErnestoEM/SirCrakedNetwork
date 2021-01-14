@@ -1,0 +1,8 @@
+name: SirCrakedAuth
+author: PolloGamer
+version: 1.2
+main: com.pollogamer.auth.Principal
+depend: [ SirCrakedServer, AuthMe ]
+commands:
+  authserver:
+    description: Comando basico

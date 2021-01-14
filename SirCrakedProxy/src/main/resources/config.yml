@@ -1,0 +1,40 @@
+################################################################################
+#                       SirCraked Proxy by PolloGamer                          #
+################################################################################
+
+NoDirectConnect: true
+serverName: "BungeeCord-1"
+
+ComandosBloqueados:
+  - 'pl'
+  - '?'
+  - 'plugins'
+  - 'bukkit:plugins'
+  - 'bukkit:?'
+  - 'bukkit:pl'
+  - 'ver'
+  - 'help'
+  - 'bukkit:me'
+  - 'about'
+  - 'minecraft:me'
+  - 'me'
+
+motd:
+  - '&f&l>&4&l> Sir&1&lCraked &a&lNetwork &4&l<&f&l<  &e&l1.8/1.9/1.10/1.11'
+  - '&6&lINFO: &e  tienda.sircraked.com'
+
+version_mantenimiento: '&cMantenimiento'
+
+motd_mantenimiento:
+  - '&f&l>&4&l> Sir&1&lCraked &a&lNetwork &4&l<&f&l<  &e&l1.8/1.9/1.10/1.11'
+  - '       &cEstamos en mantenimiento!       '
+
+
+
+broadcast:
+  - '&aRecuerda votar usando &e/voto40 &apara obtener recompensas!'
+  - '&aReporta a cheaters usando /report <Jugador> <Razon>'
+  - '&aPuedes adquirir rango en &etienda.sircraked.com &ay tendras grandes ventajas!'
+  - '&aSi tienes una duda usa /helpop <Duda>'
+  - '&aRecuerda revisar la web sircraked.com para estar al tanto!'
+  - '&aPara ser YT necesitas +700 subscriptores!'

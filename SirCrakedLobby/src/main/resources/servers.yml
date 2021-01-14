@@ -1,0 +1,49 @@
+guilistserver:
+  waiting:
+    item: '351:10'
+    lore:
+      - ' '
+      - '&7Jugadores: %players%/%maxplayers%'
+      - '&7Estado: %motd%'
+      - ' '
+      - '&aClick para conectarte'
+  starting:
+    item: '351:13'
+    lore:
+      - ' '
+      - '&7Jugadores: %players%/%maxplayers%'
+      - '&7Estado: %motd%'
+      - ' '
+      - '&aClick para conectarte'
+
+servers:
+  otherservers:
+    arenapvp:
+      ip: 'localhost:25823'
+      bungeeservername: 'ArenaPvP'
+    ffa:
+      ip: 'localhost:25566'
+      bungeeservername: 'FFA'
+    factions:
+      ip: 'localhost:2000'
+      bungeeservername: 'Factions'
+  lobbies:
+    hub1:
+      name: 'Lobby-1'
+      bungeeservername: 'HUB-1'
+      ip: 'localhost:25566'
+    hub2:
+      name: 'Lobby-2'
+      bungeeservername: 'HUB-1'
+      ip: 'localhost:24598'
+  listserver:
+    fightclub:
+      allowed-stages:
+        - '§4§lSir§1§lCraked §7§l» HUB'
+      starting-stages:
+        - 'Empezando'
+      servers:
+        1:
+          name: '&7FightClub-1'
+          bungeeservername: 'FightClub-1'
+          ip: 'localhost:25566'

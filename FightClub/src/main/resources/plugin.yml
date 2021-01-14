@@ -1,0 +1,9 @@
+name: FightClub
+description: FightClub Minigame
+version: 1.2
+main: me.felipefonseca.plugins.Main
+author: PolloGamer
+depend: [ SirCrakedServer, PowerfulPerms ]
+commands:
+  game:
+    description: Crear juego

@@ -1,0 +1,15 @@
+###########################################################
+#                                                         #
+#                    SIRCRAKED CORE                       #
+#                                                         #
+###########################################################
+
+IPWL: true
+BungeeIP: 62.210.168.150
+
+MySQL:
+  host: localhost
+  port: 3306
+  user: root
+  pass: nowe
+  database: coins

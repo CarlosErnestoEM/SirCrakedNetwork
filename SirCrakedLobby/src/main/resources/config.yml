@@ -1,0 +1,158 @@
+#######################################################
+#                   SIRCRAKED LOBBY                   #
+#######################################################
+
+
+#########################
+#       OPCIONES        #
+#########################
+
+disablejoinmessage: true
+disableleavemessage: true
+
+
+
+
+#########################
+#     Localizaciones    #
+#########################
+
+spawn: lobby,-58.450153849275125,58.0,37.58326436432041,-39.04136,-1.3996623
+
+#########################
+#        Mensajes       #
+#########################
+
+motd:
+  - '&a&m&l+----------------------------------------+'
+  - ''
+  - '&bBienvenido a &4&lSir&1&lCraked &a&lNetwork'
+  - '%prefix% %player%'
+  - ''
+  - '&a&m&l+----------------------------------------+'
+
+actionbar: 'Adquiere tu rango &etienda.sircraked.com'
+
+#########################
+#         Menus         #
+#########################
+
+menu:
+  servidores:
+    Factions:
+      displayname: '&aFactions'
+      right: 'servidor Factions'
+      left: 'servidor Factions'
+      id: 2
+      data: 0
+      slot: 4
+      lore:
+        - '&8Supervivencia'
+        - ' '
+        - '&7Crea tu facción con tus amigos'
+        - '&7y vence a las demas facciones'
+        - ' '
+        - 'status_factions'
+        - ' '
+        - '&a&lClick para conectarte!'
+    ArenaPvP:
+      displayname: '&aArenaPvP'
+      right: 'servidor ArenaPvP'
+      left: 'servidor ArenaPvP'
+      id: 327
+      data: 0
+      slot: 13
+      lore:
+        - '&8Combate'
+        - ' '
+        - '&7Demuestra que eres el mejor en batallas'
+        - '&71v1 en modos como:'
+        - ' '
+        - '&eBuildUHC'
+        - '&ePots'
+        - '&eUHC Meetup'
+        - '&eEtc'
+        - ' '
+        - 'status_arenapvp'
+        - ' '
+        - '&cRecuerda el team es BAN!'
+        - ' '
+        - '&a&lClick para conectarte!'
+    FFA:
+      displayname: '&aFFA'
+      right: 'servidor FFA'
+      left: 'servidor FFA'
+      id: 276
+      data: 0
+      slot: 15
+      lore:
+        - '&8Combate'
+        - ' '
+        - '&7Conectate y desmuestra que eres el'
+        - '&7mejor mostrando tus habilidades en PvP!'
+        - '&7Contiene &aFFA, BuildFFA y ComboFFA!'
+        - ' '
+        - '&cRecuerda el team es BAN!'
+        - ' '
+        - 'status_ffa'
+        - ' '
+        - '&a&lClick para conectarte!'
+    FightClub:
+      displayname: '&aFightClub'
+      right: 'openlistserver fightclub'
+      left: 'openlistserver fightclub'
+      id: 351
+      data: 9
+      slot: 11
+      lore:
+        - '&8Minijuego'
+        - ' '
+        - '&7Tu estas equipado y tienes que'
+        - '&7luchar en duelos 1v1 por ronda y'
+        - '&7tu objetivo es ganar la partida!'
+        - ' '
+        - '&a&lClick para conectarte!'
+    BedWars:
+      displayname: '&aBed Wars'
+      comando: 'openlistserver BedWars'
+      id: 355
+      data: 0
+      slot: 21
+      lore:
+        - '&8Supervivencia por Equipos'
+        - ' '
+        - '&7Protege tu cama junto con'
+        - '&7tus enemigos y destruye la'
+        - '&7cama de tus enemigos para'
+        - '&7ganar!'
+        - ' '
+        - '&a&lClick para conectarte!'
+    TNTTag:
+      displayname: '&aTNT Tag'
+      comando: 'openlistserver TNTTag'
+      id: 46
+      data: 0
+      slot: 29
+      lore:
+        - '&8Minijuego'
+        - ' '
+        - '&7Un juego basado es 1 juego donde se eligen'
+        - '&7personas al azar y tienen la TNT. Si el tiempo'
+        - '&7llega a 0 muere. :v'
+        - '&7Pegale a alguien para pegarle la TNT'
+        - ' '
+        - '&a&lClick para conectarte!'
+    TNTRun:
+      displayname: '&aTNT Run'
+      comando: 'openlistserver TNTRun'
+      id: 12
+      data: 0
+      slot: 33
+      lore:
+        - '&8Minijuego'
+        - ' '
+        - '&7Estan varias capas y cuando avanzas!'
+        - '&7el piso se quita..'
+        - '&7Corre, corre y no dejes de correr xd'
+        - ' '
+        - '&a&lClick para conectarte!'

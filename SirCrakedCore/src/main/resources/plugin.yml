@@ -1,0 +1,47 @@
+name: SirCrakedServer
+main: com.pollogamer.SirCrakedCore
+version: 1.0
+author: PolloGamer
+description: Nucleo de la network
+load: startup
+commands:
+  s:
+    description: Sanciones
+    alises: [ sancionar ]
+  coins:
+    description: Muestra tus coins
+  addcoins:
+    description: Añade coins
+  removecoins:
+    description: Remueve SirCoins
+  setcoins:
+    description: Marca una cantidad de SirCoins
+  youtuberset:
+    description: Pone youtuber :v
+  youtuberquit:
+    description: Quita youtuber :V
+  reinicio:
+    description: Establece un tiempo de reinicio
+  anunciar:
+    description: Crea un broadcast
+    aliases: [ anunciar, bc, broadcast ]
+  fly:
+    description: Activa o desactiva el modo de vuelo
+  invsee:
+    description: Revisa el inventario de una persona
+  holograma:
+    description: Crea holograma
+  troll:
+    description: Comando para trollear xd
+  chat:
+    description: Controla el chat
+  freeze:
+    aliases: [ freeze, fz ]
+    description: Congela a 1 jugador
+  stp:
+    description: TP
+  ss:
+    aliases: [ ss, staffmode, sm ]
+    description: Modo Staff
+  sc:
+    description: Comando para sancionar a personas mediante la consola!

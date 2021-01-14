@@ -1,0 +1,8 @@
+name: ArenaPvP-Lobby
+author: PolloGamer
+version: 1.0
+main: com.pollogamer.builduhc.Principal
+commands:
+  uhcsimulator:
+    description: Comando para ver las partidas de UHCSimulator
+    aliases: [ uhcsimulator, uhcs ]

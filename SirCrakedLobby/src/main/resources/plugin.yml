@@ -1,0 +1,15 @@
+name: SirCrakedHub
+author: PolloGamer
+version: 1.4
+main: com.pollogamer.sircrakedhub.Principal
+depend: [ SirCrakedServer ]
+softdepend: [ Multiverse-Core ]
+commands:
+  gm:
+    description: a
+  pets:
+    description: pets
+  sircrakedlobby:
+    description: lobby
+  join:
+    description: Entrar a 1 modalidad balanceada

@@ -1,0 +1,42 @@
+guilistserver:
+  waiting:
+    item: '351:10'
+    lore:
+      - ' '
+      - '&7Jugadores: %players%/%maxplayers%'
+      - '&7Estado: %motd%'
+      - ' '
+      - '&aClick para conectarte'
+  starting:
+    item: '351:13'
+    lore:
+      - ' '
+      - '&7Jugadores: %players%/%maxplayers%'
+      - '&7Estado: %motd%'
+      - ' '
+      - '&aClick para conectarte'
+
+servers:
+  listserver:
+    uhcsimulator:
+      allowed-stages:
+        - '§cEsperando...'
+      starting-stages:
+        - '§cEmpezando'
+      servers:
+        1:
+          name: '&aUHCSimulator-1'
+          bungeeservername: 'UHCSimulator-1'
+          ip: 'localhost:12345'
+        2:
+          name: '&aUHCSimulator-2'
+          bungeeservername: 'UHCSimulator-2'
+          ip: 'localhost:12346'
+        3:
+          name: '&aUHCSimulator-3'
+          bungeeservername: 'UHCSimulator-3'
+          ip: 'localhost:12347'
+        4:
+          name: '&aUHCSimulator-4'
+          bungeeservername: 'UHCSimulator-4'
+          ip: 'localhost:12348'

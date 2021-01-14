@@ -1,0 +1,16 @@
+#############################################################
+#                                                           #
+#             UHC-Simulator by PolloGamer                   #
+#                                                           #
+#############################################################
+
+setup: true
+bordersize: 100
+minplayers: 12
+
+locations:
+
+holograms:
+  topelo:
+  topkills:
+  topwins:

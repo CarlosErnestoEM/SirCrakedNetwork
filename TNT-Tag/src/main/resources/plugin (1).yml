@@ -1,0 +1,11 @@
+name: TNT-Tag
+author: PolloGamer
+main: com.pollogamer.tnttag.Principal
+version: 1.0
+depend: [ NametagEdit ]
+commands:
+  tnttag:
+    aliases: [ tnttag, tt ]
+    description: Comando para configurar el TNTTag
+  game:
+    description: Comando referente al juego

@@ -1,0 +1,10 @@
+name: UHCSurvivalGames
+description: UHCGames
+version: 1.2-Release
+author: Felipe Fonseca
+main: me.felipefonseca.plugins.Main
+commands:
+  game:
+    description: main command
+    permission: UHCSurvivalGames.Admin
+    permission-message: No puedes hacer esto.

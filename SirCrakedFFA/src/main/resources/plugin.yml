@@ -1,0 +1,17 @@
+name: SirCrakedFFA
+author: PolloGamer
+version: 1.1
+main: com.pollogamer.sircrakedffa.Principal
+description: Modo de juego FFA
+depend: [ SirCrakedServer ]
+softdepend: [ Multiverse-Core ]
+commands:
+  buildffa:
+    description: Entra al modo de juego BuildFFA
+  ffa:
+    description: Entra al modo FFA Clasico
+  comboffa:
+    description: Entra al modo de juego Combo FFA
+  ffaadmin:
+    description: Comando para configurar
+        

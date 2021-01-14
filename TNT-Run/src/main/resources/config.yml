@@ -1,0 +1,14 @@
+#################################################
+#                                               #
+#             TNT-Run BY POLLOGAMER             #
+#                                               #
+#################################################
+
+mapa: 'nombre'
+minplayers: 8
+
+pvprun: false
+
+locations:
+  lobby:
+  spawn:
